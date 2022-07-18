@@ -7,6 +7,7 @@ const MenuCard = ({menuData}) => {
     {menuData.map((curElement) => {
 
       const {id,name,category,image,description} = curElement;
+      console.log("curElement ", curElement)
           
         return(
             
